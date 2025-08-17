@@ -47,8 +47,6 @@ const char* welcome_bunny =
 "⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀\n";
 
 
-int current_frame = 0;
-time_t last_animation = 0;
 
 void clear_screen() {
     printf("\033[H\033[J");
